@@ -1,0 +1,103 @@
+/********** Setting the fonts section ***************/
+
+@font-face {
+  font-family: "annabel";
+  src: url("annabel.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.flexBackground {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  top: 0;
+  left: 0;
+
+  background: url(../images/b3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+}
+
+.flexBackground canvas {
+  position: relative;
+}
+
+.flexBackground .backCover {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: url(../images/b3cover.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: annabel;
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  line-height: 300px;
+  margin: 0;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 15px;
+  display: table;
+  margin: 0px auto 0px auto;
+}
+
+div.links {
+  margin-top: 70px;
+}
+
+div.links ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+
+div.links ul li {
+  display: inline-block;
+  padding: 0 5px;
+  margin: 10px 0;
+}
+
+a.button {
+  display: inline-block;
+  line-height: 40px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 0 20px;
+  border-radius: 50px;
+  border: solid 1px #fff;
+  transition: 0.3s;
+}
+
+a.button:hover {
+  color: #fff;
+  background-color: transparent;
+}

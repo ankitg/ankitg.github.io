@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Flex Navigation</title>
+	
+	<link rel = "stylesheet" href = "css/flexBackground.css"/>
+	<script type = "text/javascript" src = "js/jquery.min.js"></script>	
+	<script type = "text/javascript" src="js/flexBackground.js"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<script type= "text/javascript">
+	$(document).ready(function(){
+		$(".flexBackground").flexBackground({birds:'10',
+											size:'15',
+											interval : '30',
+											velocity : '3',
+											color : 'rgb(0, 0, 0, .5)' 
+										});
+	})
+	</script>
+	
+	<style>
+		html{
+			height : 100%;
+		}
+		
+		body{
+			margin : 0;
+			height : 100%;
+		}
+	</style>
+
+	
+</head>
+
+<body>
+
+	<div class = "flexBackground">
+		<canvas id = "canvasBackground">
+		</canvas>
+		<div class = "backCover">
+		</div>
+	</div>
+
+	<h1>All done.</h1>
+	<p>
+	Thank you for booking a meeting.<br/>
+	I look forward to chatting with you.
+	</p>
+	
+</body>
+
+</html>
